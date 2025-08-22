@@ -9,7 +9,7 @@
 | - | - |
 | Date | 2025.08.25 ~ 2025.08.29 |
 | Location | European Spallation Source Eric, Data Management and Software Centre |
-| Course Track | {{ COURSE_TRACK }} (One of `powder`, `QUENS` and `SANS`) |
+| Course Track | {{ COURSE_TRACK }} (One of `powder`, `QENS` and `SANS`) |
 | Author | {{ YOUR_NAME }} |
 | Author ORCID ID | {{ YOUR_ORCID_ID }} |
 
