@@ -3,7 +3,7 @@
 from collections.abc import Iterable
 from typing import Tuple
 
-from easyscience.Objects.variable import Parameter
+from easyscience import Parameter
 import numpy as np
 import pandas as pd
 
@@ -22,12 +22,12 @@ def fetch_data(name: str) -> str:
     """
     import pooch
 
-    return pooch.retrieve(
-        url=f"https://public.esss.dk/groups/scipp/dmsc-summer-school/2025/{name}",
-        known_hash=None,
+    registry = pooch.create(
+        path=pooch.os_cache('dmsc_school'),
+        retry_if_failed=3,
+        base_url=f"https://public.esss.dk/groups/scipp/dmsc-summer-school/2025",
+        registry={
+            name: None,
+        },
     )
-
-def save_fit_params(filename: str, params: Iterable[Parameter]) -> None:
-    fit_params = pd.DataFrame([param.encode_data() for param in params])
-    with open(filename, 'w') as file:
-        file.write(fit_params.to_csv(index=False))
+    return registry.fetch(name)
