@@ -1,13 +1,13 @@
 # {{ title_of_your_report }}
 
-> 2025 DMSC Summer School Report - Template <br>
+> 2026 DMSC Summer School Report - Template <br>
   Fill the variables, wrapped by {{  }} or blank spaces with your own information <br>
   You can add more sections and rename them freely. <br>
   Explain methodologies, add your insights and summarize results including plots in each section.
 
 |   |   |
 | - | - |
-| Date | 2025.08.25 ~ 2025.08.29 |
+| Date | 2026.08.24 ~ 2026.08.28 |
 | Location | European Spallation Source Eric, Data Management and Software Centre |
 | Course Track | {{ COURSE_TRACK }} (One of `powder`, `QENS` and `SANS`) |
 | Author | {{ YOUR_NAME }} |
@@ -22,7 +22,7 @@
 
 ## Simulation
 
-> Day 2, 2025.08.26
+> Day 2, 2026.08.25
 
 ```python
 # Add your code snippet how you run the simulation
@@ -42,7 +42,7 @@
 
 ## Data Reduction
 
-> Day 3, 2025.08.27
+> Day 3, 2026.08.26
 
 
 ### Data Reduction Input
@@ -72,7 +72,7 @@
 
 ## Data Analysis
 
-> Day 4, 2025.08.28
+> Day 4, 2026.08.27
 
 ### Data Analysis Input
 
