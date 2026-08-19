@@ -1,7 +1,7 @@
-# {{ title_of_your_report }}
+# Title of Your Report
 
 > 2026 DMSC Summer School Report - Template <br>
-  Fill the variables, wrapped by {{  }} or blank spaces with your own information <br>
+  Replace place holder text or fill blank spaces with your own information. <br>
   You can add more sections and rename them freely. <br>
   Explain methodologies, add your insights and summarize results including plots in each section.
 
