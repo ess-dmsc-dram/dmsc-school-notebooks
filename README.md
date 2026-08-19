@@ -40,7 +40,7 @@
 
 | Dataset Name | Scicat Dataset Persistent Identifier (PID) |
 | ------------ | ------------------------------------------ |
-| name of the dataset | [ dataset pid ]( link to the simulation dataset in scicat ) |
+| name of the dataset | [dataset pid](link to the simulation dataset in scicat) |
 
 > TODO: Add your plots of simulation results here
 
@@ -66,7 +66,7 @@
 
 | Dataset Name | Scicat Dataset Persistent Identifier (PID) |
 | ------------ | ------------------------------------------ |
-| reduced dataset name  | [ reduced dataset pid ](link to the reduced dataset in scicat) |
+| reduced dataset name  | [reduced dataset pid](link to the reduced dataset in scicat) |
 
 > TODO: Add your plots here
 
@@ -92,7 +92,7 @@
 
 | Dataset Name | Scicat Dataset Persistent Identifier (PID) |
 | ------------ | ------------------------------------------ |
-| analysis result dataset name | [ analysis dataset pid ](link to the analysis result dataset in scicat) |
+| analysis result dataset name | [analysis dataset pid](link to the analysis result dataset in scicat) |
 
 > TODO: Add your plots here
 
