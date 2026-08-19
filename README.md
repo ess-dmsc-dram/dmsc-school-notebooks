@@ -9,9 +9,9 @@
 | - | - |
 | Date | 2026.08.24 ~ 2026.08.28 |
 | Location | European Spallation Source Eric, Data Management and Software Centre |
-| Course Track | {{ COURSE_TRACK }} (One of `powder`, `QENS` and `SANS`) |
-| Author | {{ YOUR_NAME }} |
-| Author ORCID ID | {{ YOUR_ORCID_ID }} |
+| Course Track | (One of `powder`, `QENS` and `SANS`) |
+| Author | John Smith |
+| Author ORCID ID | 0000-0000-0000-0000 |
 
 ## Table of Contents
 
@@ -24,19 +24,25 @@
 
 > Day 2, 2026.08.25
 
+### Simulation Steps
+
 ```python
-# Add your code snippet how you run the simulation
+# Add code snippet for simulation.
 ```
+
+### Simulation Parameters
+
+| Parameter Name | Parameter Value |
+| -------------- | --------------- |
+| Number of Neutrons |             |
 
 ### Simulation Result
 
 | Dataset Name | Scicat Dataset Persistent Identifier (PID) |
 | ------------ | ------------------------------------------ |
-| {{ SIMULATION_DATASET_NAME }} | [ {{ SIMULATION_DATASET_PID }} ]({{ LINK_TO_THE_SIMULATION_DATASET_IN_SCICAT }}) |
+| name of the dataset | [ dataset pid ]( link to the simulation dataset in scicat ) |
 
-<br>
-
-> Add your plots here
+> TODO: Add your plots of simulation results here
 
 ![Alternative Text of Image](full_path_to_the_image "Help text of Image")
 
@@ -44,29 +50,25 @@
 
 > Day 3, 2026.08.26
 
-
 ### Data Reduction Input
 
 | Dataset Name | Description |
 | ------------ | ----------- |
-| {{ NAME_OF_THE_REDUCTION_INPUT_DATASET }} |  |
+| name of the reduction input dataset |  |
 
-### Data Reduction Methodology
+### Data Reduction Steps
 
 ```python
-# Add your code snippet how you reduced the data
+# Add code snippet for reduction.
 ```
 
 ### Data Reduction Result
 
 | Dataset Name | Scicat Dataset Persistent Identifier (PID) |
 | ------------ | ------------------------------------------ |
-| {{ REDUCED_DATASET_NAME }} | [ {{ REDUCED_DATASET_PID }} ]({{ LINK_TO_THE_REDUCED_DATASET_IN_SCICAT }}) |
+| reduced dataset name  | [ reduced dataset pid ](link to the reduced dataset in scicat) |
 
-
-<br>
-
-> Add your plots here
+> TODO: Add your plots here
 
 ![Alternative Text of Image](full_path_to_the_image "Help text of Image")
 
@@ -77,27 +79,25 @@
 ### Data Analysis Input
 
 | Dataset Name | Description |
-| ------------- | ----------- |
-| {{ NAME_OF_THE_ANALYSIS_INPUT_DATASET }} |  |
+| ------------ | ----------- |
+| name of the analysis input |  |
 
-### Data Analysis Methodology
+### Data Analysis Steps
 
 ```python
-# Add your code snippet how you analyzed the data
+# Add code snippet for analysis.
 ```
 
 ### Data Analysis Result
 
 | Dataset Name | Scicat Dataset Persistent Identifier (PID) |
 | ------------ | ------------------------------------------ |
-| {{ ANALYSED_DATASET_NAME }} | [ {{ ANALYSED_DATASET_PID }} ]({{ LINK_TO_THE_ANALYSED_DATASET_IN_SCICAT }}) |
+| analysis result dataset name | [ analysis dataset pid ](link to the analysis result dataset in scicat) |
 
-<br>
-
-> Add your plots here
+> TODO: Add your plots here
 
 ![Alternative Text of Image](full_path_to_the_image "Help text of Image")
 
 ## Conclusion
 
-> Add your insights here
+> TODO: Add your insights/summary here
